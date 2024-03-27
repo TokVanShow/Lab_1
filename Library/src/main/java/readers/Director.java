@@ -8,7 +8,7 @@ public class Director {
         this.builder = builder;
     }
     
-   public int createReader(){
-       return 0;
+   public Builder createReader(){
+       return null;
    }
 }
