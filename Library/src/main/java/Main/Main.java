@@ -38,8 +38,8 @@ public class Main {
             new NewJFrame().setVisible(true);
         });
 
-        ExcelReader cep = new ExcelReader("src\\main\\java\\Excel\\Names.xlsx");
-        cep.processData();
+        ExcelReader reader = new ExcelReader("src\\main\\java\\Excel\\Names.xlsx");
+        reader.processData();
 
 
     }

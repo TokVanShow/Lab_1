@@ -54,11 +54,11 @@ public class ExcelReader {
                 }
                 if (i == 0) {
                     list2.add(workbook.getSheetAt(sheetIndex).getRow(j).getCell(i).getStringCellValue());
-//                    System.out.println(list2);
+                    System.out.println(list2);
                 }
                 if (i == 1) {
                     list1.add(workbook.getSheetAt(sheetIndex).getRow(j).getCell(i).getStringCellValue());
-//                    System.out.println(list1);
+                    System.out.println(list1);
                 }
             }
         }
